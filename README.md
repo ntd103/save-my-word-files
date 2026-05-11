@@ -19,11 +19,11 @@ Wel, tui đã ngồi mò được thì file word bản chất là xml thui. Lỗ
 >Step 0: Luôn lưu backup lại bản lỗi chính đó. Chúng ta chỉ làm việc với bản copied.
 
 
-Cách 0: Tui k biết mấy cách dưới có hoạt động k nữa, vì tui thử fail hết. 
+**Cách 0**: Tui k biết mấy cách dưới có hoạt động k nữa, vì tui thử fail hết. 
 Đây là tool tui làm. 
 1. Đổi đuôi file `mydoc.docx` → `mydoc.zip`
 2. Giải nén file zip trên
-3. copy file strip_fields.ps1 vào folder giải nén
+3. copy file [strip_fields.ps1](https://github.com/ntd103/save-my-word-files/releases/download/v0.1/strip_fields.ps1)**** vào folder giải nén
 4. Mở chuột phải → chọn Open Powershell here → gõ `.\strip_fields.ps1` → Enter
 5. Xong rồi thì lại nén lại thành file `.zip`, đổi tên lại về `.docx`. DONE
 
