@@ -7,7 +7,6 @@ Rồi bạn xuất sang định dạng pdf. BOOM. Trang pdf trắng trơn, mở 
 
 Đây là giải pháp cho bạn.
 
----
 ## Usage
 *4 cách dưới bạn có thể thử ngẫu nhiên không bắt theo thứ tự. Bạn hoàn toàn có thể chọn luôn cách giải quyết của tác giả*
 
@@ -19,7 +18,7 @@ Wel, tui đã ngồi mò được thì file word bản chất là xml thui. Lỗ
 >WARNING
 >Step 0: Luôn lưu backup lại bản lỗi chính đó. Chúng ta chỉ làm việc với bản copied.
 
-```text
+
 Cách 0: Tui k biết mấy cách dưới có hoạt động k nữa, vì tui thử fail hết. 
 Đây là tool tui làm. 
 1. Đổi đuôi file `mydoc.docx` → `mydoc.zip`
@@ -27,36 +26,29 @@ Cách 0: Tui k biết mấy cách dưới có hoạt động k nữa, vì tui th
 3. copy file strip_fields.ps1 vào folder giải nén
 4. Mở chuột phải → chọn Open Powershell here → gõ `.\strip_fields.ps1` → Enter
 5. Xong rồi thì lại nén lại thành file `.zip`, đổi tên lại về `.docx`. DONE
-```
 
-```text
-Cách 1: Repair built-in
+
+
+**Cách 1**: Repair built-in
 1. Mở word (không mở file trực tiếp)
 2. Vào File → Open → Browse
 3. Tìm đến file bị lỗi, click 1 lần để chọn (không double-click)
 4. Nhấn vào mũi tên nhỏ bên cạnh nút Open
 5. Chọn Open and Repair
-```
 
-```text
-Cách 2: Mở Word ở chế độ Safe Mode
+**Cách 2**: Mở Word ở chế độ Safe Mode
 1. Nhấn Windows + R, gõ winword.exe /a → Enter
 2. Word mở không có add-ins, template lỗi
 3. Vào File → Open → chọn file bị hỏng → Open and Repair
-```
 
-```text
-Cách 3: Dùng công cụ phục hồi online
+**Cách 3**: Dùng công cụ phục hồi online
 Nếu các cách trên thất bại, upload file lên các công cụ chuyên dụng:
 1. [File Repair Online - Recover Corrupted DOCX Files Fast](https://www.filerepaironline.com/) — hỗ trợ DOCX đến 4MB, preview miễn phí, trả phí nếu muốn download
 2. [DOCX Repair Tool to Repair Damaged & Corrupt DOCX File](https://www.systoolsgroup.com/docx-repair.html) — cài đặt offline, hiệu quả với file nặng
-```
 
-```text
-Cách 4: Chèn vào document mới
+**Cách 4**: Chèn vào document mới
 Nếu file vẫn mở được dù trống:
 1. Tạo file Word mới blank
 2. Vào Insert → Object → Text from File
 3. Chọn file bị lỗi → Insert
 Word sẽ cố gắng extract nội dung vào document mới
-```
